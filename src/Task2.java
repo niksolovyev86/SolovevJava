@@ -8,15 +8,15 @@ public class Task2 {
 
         Scanner scan = new Scanner(System.in);
 
-        do {
-            System.out.print("Введите имя или пробел для выхода:");
+            System.out.print("Введите имя:");
             enteredName = scan.nextLine();
 
             if (waitedName.equals(enteredName)) {
                 System.out.println("Привет, Вячеслав");
-            } else System.out.println("Повторите ввод или введите пробел для выхода");
+            } else System.out.println("Нет такого имени.");
+            scan.close();
 
-        } while (!enteredName.equals(exit));
+
 
     }
 }
