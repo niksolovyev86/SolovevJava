@@ -8,14 +8,13 @@ public class Task2 {
 
         Scanner scan = new Scanner(System.in);
 
-            System.out.print("Введите имя:");
-            enteredName = scan.nextLine();
+        System.out.print("Введите имя:");
+        enteredName = scan.nextLine();
 
-            if (waitedName.equals(enteredName)) {
-                System.out.println("Привет, Вячеслав");
-            } else System.out.println("Нет такого имени.");
-            scan.close();
-
+        if (waitedName.equals(enteredName)) {
+            System.out.println("Привет, Вячеслав");
+        } else System.out.println("Нет такого имени.");
+        scan.close();
 
 
     }
